@@ -1,0 +1,50 @@
+/* #1482A7 */
+/* mihe cclor #F2FDFF */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flex{
+    display: flex;
+}
+.alinitem{
+    align-items: center;
+}
+.naveli{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    background-color: #1482A7;
+    padding: 20px;
+    border-radius: 100px;
+    margin: 0px 0px 25px 5px;
+    font-size: 25px;
+}
+
+.bigImgSort{
+    width: 500px;
+}
+.bgcolor{
+    background-color:#1482A7 ;
+}
+.textwhite{
+    color:white
+}
+.textakasi{
+color: #1482A7;
+}
+nav{
+    justify-content: space-between;
+      text-transform: uppercase;
+}
+
+.bgmihe{
+    background-color:#F2FDFF ;
+}
+.justifySpaceBetween{
+ justify-content: space-between;
+}
+.liststyle{
+    list-style: none;
+}
