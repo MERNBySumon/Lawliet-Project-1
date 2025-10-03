@@ -1,181 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lawliet Project 1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- <link rel="icon" href="./image/lLogo.png" type="image/png> -->
-     <link rel="icon" href="./image/lLogo.png" type="image/png">
-</head>
-<body>
-    <nav class="flex alinitem">
-        <!-- ===========logo--------- -->
-        <div class="flex logomain">
-          <img src="./image/Logo.png" alt="">
-        </div>
-      <!-- ===============nav item=============== -->
-        <div>
-            <ul class="naveli liststyle">
-                
-                <li><a href=""></a>contact</a></li>
-                <li><a href=""></a>testimonials</a></li>
-                <li><a href=""></a>about</a></li>
-                <li><a href=""></a>terms</a></li>
-                
-            </ul>
-        </div>
-        <!-- ===================search button=========== -->
-        <div><img src="./image/SearchOutline.png" alt="search_button"></div>
+    <link rel="icon" href="./image/lLogo.png" type="image/png" />
+    <!-- <link rel="stylesheet" href="/script.js"> -->
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Logo -->
+      <div>
+        <img src="./image/Logo.png" alt="logo" />
+      </div>
+
+      <!-- Nav items -->
+      <ul class="nav-links">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+
+      <!-- Search -->
+      <div class="search">
+        <img src="./image/SearchOutline.png" alt="search_button" />
+      </div>
+
+      <!-- Mobile menu icon -->
+      <div class="menu-toggle">☰</div>
     </nav>
-<!-- --hero------ -->
- <div class="flex alinitem ">
-    <div >
-        <div>
-            <h1>Your Solution
-Legal Consultancy</h1>
-<p>We are here to help you to take care of your legality with the best services especially for you.</p>
-<button>Get Stated</button>
-        </div>
-         <div>
-            <p>Trusted by 10+ companies in Indonesia</p>
-            <div>
-                <div>
-                    <img src="./image/AirbnbLogo.png" alt="">
-                    <img src="./image/HubspotLogo.png" alt="">
-                </div>
-                <div>
-                    <img src="./image/MicrosoftLogo.png" alt="">
-                    <img src="./image/GoogleLogo.png" alt="">
-                </div>
+
+    <!-- --hero------ -->
+
+    <div class="hero">
+      <!-- Left content -->
+      <div class="hero-text">
+        <h1>
+          Your Solution <br />
+          Legal Consultancy
+        </h1>
+        <p>
+          We are here to help you to take care of your legality with the best
+          services especially for you.
+        </p>
+        <button class="btn">Get Started</button>
+
+        <!-- Trusted logos -->
+        <div class="trusted">
+          <p>Trusted by 10+ companies in Indonesia</p>
+          <div class="logos">
+            <div class="row">
+              <img src="./image/AirbnbLogo.png" alt="Airbnb" />
+              <img src="./image/HubspotLogo.png" alt="Hubspot" />
             </div>
-         </div>
+            <div class="row">
+              <img src="./image/MicrosoftLogo.png" alt="Microsoft" />
+              <img src="./image/GoogleLogo.png" alt="Google" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right image -->
+      <div class="hero-img">
+        <img src="./image/heroimg.png" alt="female image" />
+      </div>
     </div>
-    <div><img src="./image/heroimg.png" alt="femal image"></div>
- </div>
-<!-- ---------------------hero end--------- -->
- <!-- ============we help======================= -->
-  <div class="flex bgmihe">
-    <div>
-        <h2>Why do we help
-with legalization?</h2>
-        <p>We are here for UMKM in Indonesia
-to carry out the legalization process,
-which is some times complicated.</p>
+
+    <!-- ---------------------hero end--------- -->
+    <!-- ============we help======================= -->
+    <div class="why-section">
+      <!-- Left text -->
+      <div class="why-text">
+        <h2>Why do we help with legalization?</h2>
+        <p>
+          We are here for UMKM in Indonesia to carry out the legalization
+          process, which is sometimes complicated.
+        </p>
+      </div>
+
+      <!-- Right cards -->
+      <div class="why-cards">
+        <div class="card">
+          <img src="./image/CircleLayer.png" alt="" />
+          <h3>Environmental Law</h3>
+          <p>
+            Environment legal issues might occur since planned business
+            activities are designed.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="./image/Rocket.png" alt="" />
+          <h3>Corporate and Commercial</h3>
+          <p>
+            Environment legal issues might occur since planned business
+            activities are designed.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="./image/Bag.png" alt="" />
+          <h3>Information and Technology</h3>
+          <p>
+            Environment legal issues might occur since planned business
+            activities are designed.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="./image/UserArrows.png" alt="" />
+          <h3>Other Services</h3>
+          <p>
+            Environment legal issues might occur since planned business
+            activities are designed.
+          </p>
+        </div>
+      </div>
     </div>
-    <div >
-        <div>
-            <img src="./image/CircleLayer.png" alt="">
-            <h3>Environmental Law</h3>
-            <p>Environment legal issues might occur since planned business activities are designed</p>
+    <!-- ====================Environmental Law====== -->
+    <!-- ===================Some count=============== -->
+    <div class="stats-section">
+      <h4>Some count that matter</h4>
+      <p class="subtitle">
+        Our achievement in the journey depicted in numbers.
+      </p>
+
+      <div class="stats">
+        <div class="stat-box">
+          <p class="number">30</p>
+          <p class="label">Clients</p>
         </div>
-                <div>
-            <img src="./image/Rocket.png" alt="">
-            <h3>Corporate and Commercial</h3>
-            <p>Environment legal issues might occur since planned business activities are designed</p>
+        <div class="stat-box">
+          <p class="number">300+</p>
+          <p class="label">Token business legalities</p>
         </div>
+        <div class="stat-box">
+          <p class="number">8</p>
+          <p class="label">Years of journey</p>
+        </div>
+      </div>
     </div>
-    <div>
-                <div>
-            <img src="./image/Bag.png" alt="">
-            <h3>Information and Technology</h3>
-            <p>Environment legal issues might occur since planned business activities are designed</p>
+    <!-- --------clients testimonials--------- -->
+    <section class="testimonials">
+      <h2>Clients Testimonials</h2>
+
+      <div class="testi-container">
+        <!-- Card 1 -->
+        <div class="testi-card">
+          <h4>Incredible Experience</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            assumenda aliquam quo laudantium perferendis incidunt? Impedit rerum
+            sequi accusamus ratione facere, optio nostrum quidem minus possimus,
+            tempore maxime porro voluptatibus?
+          </p>
+          <div class="author">
+            <img src="./image/ahotorone.jpg" alt="Client photo" />
+            <div>
+              <h5>Anya Tailor Joy</h5>
+              <p>CEO, Microsoft</p>
+            </div>
+          </div>
         </div>
-                <div>
-            <img src="./image/UserArrows.png" alt="">
-            <h3>Other Services</h3>
-            <p>Environment legal issues might occur since planned business activities are designed</p>
+
+        <!-- Card 2 -->
+        <div class="testi-card">
+          <h4>Outstanding Support</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            assumenda aliquam quo laudantium perferendis incidunt? Impedit rerum
+            sequi accusamus ratione facere, optio nostrum quidem minus possimus,
+            tempore maxime porro voluptatibus?
+          </p>
+          <div class="author">
+            <img src="./image/ahotortwo.jpg" alt="Client photo" />
+            <div>
+              <h5>John Doe</h5>
+              <p>Founder, Google</p>
+            </div>
+          </div>
         </div>
-    </div>
-  </div>
-  <!-- ====================Environmental Law====== -->
-<!-- ===================Some count=============== -->
-<div >
-    <h4>Some count that matter</h4>
-    <p>Our achievement in the journey depicted in numbers.</p>
-    <div class="flex">
-        <div>
-            <p>30</p>
-            <p>Clients</p>
-        </div>
-        <div>
-            <p>300+</p>
-            <p>Token business legalities</p>
-        </div>
-        <div>
-            <p>8</p>
-            <p>Years of journey</p>
-        </div>
-    </div>
-</div>
-<!-- --------clients testimonials--------- -->
- <h2>Clients Testimonials</h2>
- <div class="flex">
-    <div>
-    <h4>Incredible Experience</h4>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam assumenda aliquam quo laudantium perferendis incidunt? Impedit rerum sequi accusamus ratione facere, optio nostrum quidem minus possimus, tempore maxime porro voluptatibus?</p>
-    <div>
-        <div><img src="" alt=""></div>
-        <div>
-            <h5>Anya Tailor Joy</h5>
-            <p>CEO, Microsoft</p>
-        </div>
-    </div>
- </div>
- <div>
-    <h4>Incredible Experience</h4>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam assumenda aliquam quo laudantium perferendis incidunt? Impedit rerum sequi accusamus ratione facere, optio nostrum quidem minus possimus, tempore maxime porro voluptatibus?</p>
-    <div>
-        <div><img src="" alt=""></div>
-        <div>
-            <h5>Anya Tailor Joy</h5>
-            <p>CEO, Microsoft</p>
-        </div>
-    </div>
- </div>
- </div>
- <!-- -------------------Complex------------------------- -->
-  <div class="flex alinitem">
-    <div>
+      </div>
+    </section>
+
+    <!-- -------------------Complex------------------------- -->
+    <section class="cta">
+      <div class="cta-text">
         <h6>Complex Questions?</h6>
-    <p>Request a personalized budget for your legal problem. We will send you a coupe options in 24 hours. You can have free consults, if a our first customer.</p>
-    <button>Call Now</button>
-    </div>
-    <div>
-        <img class="bigImgSort" src="./image/down.jpg" alt="">
-    </div>
-  </div>
-<!-- ---------------------footer------------------- -->
- <footer class="bgcolor textwhite ">
-    <div class="flex justifySpaceBetween ">
-        <div>
-            <p>L</p>
-            <p>Lawliet</p>
+        <p>
+          Request a personalized budget for your legal problem. We will send you
+          a couple of options in 24 hours. You can have free consults, if you
+          are our first customer.
+        </p>
+        <button class="cta-btn">Call Now</button>
+      </div>
+
+      <div class="cta-img">
+        <img src="./image/down.jpg" alt="Consultation" class="bigImgSort" />
+      </div>
+    </section>
+    <!-- ---------------------footer------------------- -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="./image/footer-logo.png" alt="" />
         </div>
-        <div class="flex">
-            <ul class="liststyle">
-                <p>Products</p>
-                <li>Features</li>
-                <li>Tutorials</li>
-                <li>Pricing</li>
-                <li>Contact</li>
-            </ul>
-            <ul class="liststyle">
-                <p>Company</p>
-                <li>Features</li>
-                <li>Tutorials</li>
-                <li>Pricing</li>
-                <li>Contact</li>
-            </ul>
-            <ul class="liststyle">
-                <p>Support</p>
-                <li>Features</li>
-                <li>Tutorials</li>
-                <li>Pricing</li>
-                <li>Contact</li>
-            </ul>
+
+        <!-- Links -->
+        <div class="footer-links">
+          <ul>
+            <p>Products</p>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul>
+            <p>Company</p>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+          <ul>
+            <p>Support</p>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
         </div>
-    </div>
- </footer>
-</body>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Lawliet. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
